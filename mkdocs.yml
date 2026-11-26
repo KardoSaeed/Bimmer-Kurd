@@ -39,5 +39,8 @@ nav:
   - مۆدێلەکان: models/README.md
   - کۆدینگ:
       - F30 / F31 / F34: coding/F30.md
-  - کۆدی هەڵەکان: fault-codes/README.md
+  - کۆدی هەڵەکان:
+      - ناساندن: fault-codes/README.md
+      - OBD-II: fault-codes/obd2.md
+      - تایبەتی BMW: fault-codes/bmw.md
   - ڕێنماییەکان: guides/README.md
