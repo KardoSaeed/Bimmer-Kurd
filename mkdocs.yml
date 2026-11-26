@@ -1,0 +1,43 @@
+site_name: Bimmer Kurd
+site_description: یەکەم کۆمیونیتی کوردی بۆ کۆدینگ و چاککردنی BMW
+site_url: https://kardosaeed.github.io/Bimmer-Kurd/
+repo_url: https://github.com/KardoSaeed/Bimmer-Kurd
+repo_name: KardoSaeed/Bimmer-Kurd
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: ku-IQ
+  direction: rtl
+  font:
+    text: Vazirmatn
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: blue
+      accent: light blue
+      toggle: { icon: material/weather-night, name: دۆخی تاریک }
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: blue
+      accent: light blue
+      toggle: { icon: material/weather-sunny, name: دۆخی ڕووناک }
+  features:
+    - navigation.tabs
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.action.edit
+
+markdown_extensions:
+  - tables
+  - admonition
+  - toc: { permalink: true }
+
+nav:
+  - سەرەکی: index.md
+  - مۆدێلەکان: models/README.md
+  - کۆدینگ:
+      - F30 / F31 / F34: coding/F30.md
+  - کۆدی هەڵەکان: fault-codes/README.md
+  - ڕێنماییەکان: guides/README.md
