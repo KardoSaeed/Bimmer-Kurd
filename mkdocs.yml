@@ -33,14 +33,14 @@ markdown_extensions:
   - tables
   - admonition
   - toc: { permalink: true }
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
 
 nav:
   - سەرەکی: index.md
   - مۆدێلەکان: models/README.md
   - کۆدینگ:
       - F30 / F31 / F34: coding/F30.md
-  - کۆدی هەڵەکان:
-      - ناساندن: fault-codes/README.md
-      - OBD-II: fault-codes/obd2.md
-      - تایبەتی BMW: fault-codes/bmw.md
+  - کۆدی هەڵەکان: fault-codes/README.md
   - ڕێنماییەکان: guides/README.md
