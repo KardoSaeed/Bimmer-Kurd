@@ -40,7 +40,6 @@ markdown_extensions:
 nav:
   - سەرەکی: index.md
   - مۆدێلەکان: models/README.md
-  - کۆدینگ:
-      - F30 / F31 / F34: coding/F30.md
+  - کۆدینگ: coding/README.md
   - کۆدی هەڵەکان: fault-codes/README.md
   - ڕێنماییەکان: guides/README.md

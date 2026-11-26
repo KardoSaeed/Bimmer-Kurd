@@ -8,7 +8,7 @@
 
 ## لێرە چی دەدۆزیتەوە
 - **[مۆدێلەکان](models/README.md)**: زانیاری بەپێی شاسی
-- **[کۆدینگ](coding/F30.md)**: کۆدەکانی NCS Expert / E-Sys / BimmerCode
+- **[کۆدینگ](coding/README.md)**: کۆدەکانی NCS Expert / E-Sys / BimmerCode
 - **[کۆدی هەڵەکان](fault-codes/README.md)**: کێشەکان و چارەسەریان
 - **[ڕێنماییەکان](guides/README.md)**: هەنگاو بە هەنگاو
 
